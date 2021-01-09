@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  width: 960px;
+  margin: 50px auto;
+  background-color: red;
+  text-align: left;
+}
+
+.list p:nth-child(1) {
+  padding: 20px;
+  background-color: lightgray;
+}
+.list p:nth-child(2) {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.list p:nth-child(3) {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.list p:nth-child(4) {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.list p:nth-child(5) {
+  padding: 20px;
+  background-color: lightgray;
+}
+.list p:nth-child(6) {
+  padding: 20px;
+  background-color: whitesmoke;
+}
+.list p:nth-child(7) {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.main {
+  width: 960px;
+  margin: 50px auto;
+  height: 680px;
+  display: block;
+}
+
+.main-box1 {
+  width: 960px;
+  height: 200px;
+  display: flex;
+}
+
+.main-box1 .main-box-item:nth-child(1) {
+  height: 200px;
+  width: 30%;
+  margin: 0 5% 0 0;
+  background-color: orange;
+}
+
+.main-box1 .main-box-item:nth-child(2) {
+  height: 200px;
+  width: 30%;
+  margin: 0 5% 0 0;
+  background-color: gold;
+}
+
+.main-box1 .main-box-item:nth-child(3) {
+  height: 200px;
+  width: 30%;
+  background-color: gold;
+}
+
+.main-box2 {
+  width: 960px;
+  height: 200px;
+  margin: 40px 0;
+  display: flex;
+}
+
+.main-box2 .main-box-item:nth-child(1) {
+  height: 200px;
+  width: 30%;
+  margin: 0 5% 0 0;
+  background-color: gold;
+}
+
+.main-box2 .main-box-item:nth-child(2) {
+  height: 200px;
+  width: 30%;
+  margin: 0 5% 0 0;
+  background-color: orange;
+}
+
+.main-box2 .main-box-item:nth-child(3) {
+  height: 200px;
+  width: 30%;
+  background-color: gold;
+}
+
+.main-box3 {
+  width: 960px;
+  height: 200px;
+  display: flex;
+}
+
+.main-box3 .main-box-item:nth-child(1) {
+  height: 200px;
+  width: 30%;
+  margin: 0 5% 0 0;
+  background-color: gold;
+}
+
+.main-box3 .main-box-item:nth-child(2) {
+  height: 200px;
+  width: 30%;
+  margin: 0 5% 0 0;
+  background-color: gold;
+}
+
+.main-box3 .main-box-item:nth-child(3) {
+  height: 200px;
+  width: 30%;
+  background-color: orange;
+}
